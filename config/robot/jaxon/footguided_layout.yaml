@@ -59,13 +59,13 @@ main:
     legends:
       - { key: swing_comp, id: [6-11] }
 
-  # rarm swing comp:
-  #   legends:
-  #     - { key: swing_comp, id: [12-17] }
+  rarm swing comp:
+    legends:
+      - { key: swing_comp, id: [12-17] }
 
-  # larm swing comp:
-  #   legends:
-  #     - { key: swing_comp, id: [18-23] }
+  larm swing comp:
+    legends:
+      - { key: swing_comp, id: [18-23] }
 
   falling direction:
     legends:

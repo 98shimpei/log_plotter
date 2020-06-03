@@ -238,6 +238,10 @@ tmp:
   data:
     - { log: abc_tmp, column: [0-30] }
 
+shimpei:
+  data:
+    - { log: abc_shimpei, column: [0-5] }
+
 swing_comp:
   func: plot_comp
   data:

@@ -1,0 +1,4 @@
+main:
+  rarm diff pos:
+    legends:
+      - { key: shimpei, id: [0-2] }

@@ -1,4 +1,7 @@
 main:
-  rarm diff pos:
+  z pos:
     legends:
-      - { key: shimpei, id: [0-2] }
+      - { key: shimpei, id: [1], label: "left arm"}
+  rleg swing comp:
+    legends:
+      - { key: swing_comp, id: [12-17] }

@@ -1,0 +1,25 @@
+main:
+  x axis force:
+    legends:
+      - { key: hoge, id: [0], label: "left arm"}
+      - { key: hoge, id: [3], label: "right arm"}
+#    xRange: {min: 8, max: 40}
+#    yRange: {min: -120, max: 45}
+#    left_label: "force [N]"
+#    bottom_label: "time [s]"
+  y axis force:
+    legends:
+      - { key: hoge, id: [1], label: "left arm"}
+      - { key: hoge, id: [4], label: "right arm"}
+#    xRange: {min: 8, max: 40}
+#    yRange: {min: -120, max: 45}
+#    left_label: "force [N]"
+#    bottom_label: "time [s]"
+  z axis force:
+    legends:
+      - { key: hoge, id: [2], label: "left arm"}
+      - { key: hoge, id: [5], label: "right arm"}
+#    xRange: {min: 8, max: 40}
+#    yRange: {min: -120, max: 45}
+#    left_label: "force [N]"
+#    bottom_label: "time [s]"

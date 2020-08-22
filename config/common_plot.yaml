@@ -1,3 +1,9 @@
+hoge:
+  data:
+    - { log: hoge, column: [0-5] }
+fuga:
+  data:
+    - { log: fuga, column: [0-5] }
 ## cog
 abc_cogOut:
   data:
@@ -6,31 +12,13 @@ abc_cogOut_with_offset:
   func: plot_with_offset
   data:
     - { log: abc_cogOut, column: [0-2] }
-st_originActCog:
-  data:
-    - { log: st_originActCog, column: [0-2] }
 abc_originActCog:
   data:
     - { log: abc_originActCog, column: [0-2] }
-st_originRefCog:
-  data:
-    - { log: st_originRefCog, column: [0-2] }
 abc_originRefCog:
   data:
     - { log: abc_originRefCog, column: [0-2] }
 ## cog velocity
-st_originActCogVel:
-  data:
-    - { log: st_originActCogVel, column: [0-2] }
-st_originRefCogVel:
-  data:
-    - { log: st_originRefCogVel, column: [0-2] }
-abc_originActCogVel:
-  data:
-    - { log: st_originActCogVel, column: [0-2] }
-abc_originRefCogVel:
-  data:
-    - { log: st_originRefCogVel, column: [0-2] }
 ## zmp
 abc_zmpOut:
   data:
@@ -38,21 +26,12 @@ abc_zmpOut:
 abc_refZmp:
   data:
     - { log: abc_refZmp, column: [0-2] }
-st_originActZmp:
-  data:
-    - { log: st_originActZmp, column: [0-2] }
 abc_originActZmp:
   data:
     - { log: abc_originActZmp, column: [0-2] }
-st_originRefZmp:
-  data:
-    - { log: st_originRefZmp, column: [0-2] }
 abc_originRefZmp:
   data:
     - { log: abc_originRefZmp, column: [0-2] }
-st_originNewZmp:
-  data:
-    - { log: st_originNewZmp, column: [0-2] }
 abc_originNewZmp:
   data:
     - { log: abc_originNewZmp, column: [0-2] }
@@ -62,9 +41,6 @@ abs_refzmp:
     - { log: abc_baseTformOut, column: [0-2] }
     - { log: abc_zmpOut, column: [0-2] }
 # root-link relative zmp
-st_zmp:
-  data:
-    - { log: st_zmp, column: [0-2] }
 ## force
 sh_rfsensorOut:
   data:
@@ -102,18 +78,6 @@ rmfo_off_rhsensor:
 rmfo_off_lhsensor:
   data:
     - { log: rmfo_off_lhsensor, column: [0-5] }
-st_ref_rfsensor:
-  data:
-    - { log: st_allRefWrench, column: [0-5] }
-st_ref_lfsensor:
-  data:
-    - { log: st_allRefWrench, column: [6-11] }
-st_ref_rhsensor:
-  data:
-    - { log: st_allRefWrench, column: [12-17] }
-st_ref_lhsensor:
-  data:
-    - { log: st_allRefWrench, column: [18-23] }
 # imu
 imu_gsensor:
   data:
@@ -127,14 +91,6 @@ sh_baseRpyOut:
   func: plot_rad2deg
   data:
     - { log: sh_baseRpyOut, column: [0-2] }
-st_actBaseRpy:
-  func: plot_rad2deg
-  data:
-    - { log: st_actBaseRpy, column: [0-2] }
-st_currentBaseRpy:
-  func: plot_rad2deg
-  data:
-    - { log: st_currentBaseRpy, column: [0-2] }
 kf_rpy:
   func: plot_rad2deg
   data:
@@ -143,9 +99,6 @@ kf_rpy:
 abc_basePos:
   data:
     - { log: abc_baseTformOut, column: [0-2] }
-st_currentBasePos:
-  data:
-    - { log: st_currentBasePos, column: [0-2] }
 # optional data
 abc_contactStates:
   data:
@@ -159,50 +112,7 @@ time:
   data:
     - { log: sh_qOut, column: [0]}
 # cp
-st_ActCp:
-  func: plot_cp
-  data:
-    - { log: st_originActCog, column: [0-1] }
-    - { log: st_originActCog, column: [2,2] }
-    - { log: st_originActCogVel, column: [0-1] }
-st_RefCp:
-  func: plot_cp
-  data:
-    - { log: st_originRefCog, column: [0-1] }
-    - { log: st_originRefCog, column: [2,2] }
-    - { log: st_originRefCogVel, column: [0-1] }
-st_ActCp_add_const:
-  func: plot_cp_add_const
-  data:
-    - { log: st_originActCog, column: [0-1] }
-    - { log: st_originActCog, column: [2,2] }
-    - { log: st_originActCogVel, column: [0-1] }
-st_RefCp_add_const:
-  func: plot_cp_add_const
-  data:
-    - { log: st_originRefCog, column: [0-1] }
-    - { log: st_originRefCog, column: [2,2] }
-    - { log: st_originRefCogVel, column: [0-1] }
 # diff
-cog_diff:
-  func: plot_diff
-  data:
-    - { log: st_originActCog, column: [0-2] }
-    - { log: st_originRefCog, column: [0-2] }
-zmp_diff:
-  func: plot_diff
-  data:
-    - { log: st_originActZmp, column: [0-2] }
-    - { log: st_originRefZmp, column: [0-2] }
-cp_diff:
-  func: plot_cp_diff
-  data:
-    - { log: st_originActCog, column: [0-1] }
-    - { log: st_originActCog, column: [2,2] }
-    - { log: st_originActCogVel, column: [0-1] }
-    - { log: st_originRefCog, column: [0-1] }
-    - { log: st_originRefCog, column: [2,2] }
-    - { log: st_originRefCogVel, column: [0-1] }
 # ee pos
 eePosX:
   data:

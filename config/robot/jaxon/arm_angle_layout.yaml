@@ -1,0 +1,16 @@
+main:
+  rarm_joint_angle:
+    legends:
+      - { key: sh_qOut, id: [17-24] }
+      - { key: abc_q, id: [17-24] }
+      # - { key: st_q, id: [0-5] }
+      - { key: es_q, id: [17-24] }
+      - { key: RobotHardware0_q, id: [17-24] }
+
+  larm_joint_angle:
+    legends:
+      - { key: sh_qOut, id: [25-32] }
+      - { key: abc_q, id: [25-32] }
+      # - { key: st_q, id: [6-11] }
+      - { key: es_q, id: [25-32] }
+      - { key: RobotHardware0_q, id: [25-32] }

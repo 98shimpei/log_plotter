@@ -268,7 +268,7 @@ tmp:
 
 shimpei:
   data:
-    - { log: abc_shimpei, column: [0-5] }
+    - { log: abc_shimpei, column: [0-14] }
 
 swing_comp:
   func: plot_comp

@@ -1,4 +1,23 @@
 main:
+  force:
+    legends:
+      - { key: shimpei, id: [0], label: "r_x"}
+      - { key: shimpei, id: [1], label: "r_y"}
+      - { key: shimpei, id: [2], label: "r_z"}
+      - { key: shimpei, id: [3], label: "l_x"}
+      - { key: shimpei, id: [4], label: "l_y"}
+      - { key: shimpei, id: [5], label: "l_z"}
+  weight:
+    legends:
+      - { key: shimpei, id: [6], label: "box weight"}
+  box_cog:
+    legends:
+      - { key: shimpei, id: [7-8], label: "force_box_pos"}
+      - { key: shimpei, id: [9-10], label: "camera_box_pos"}
+  #joint15:
+  #  legends:
+  #    - { key: shimpei, id: [12], label: "m_robot"}
+  #    - { key: shimpei, id: [13], label: "m_robot_list"}
   abs ref cog/zmp x:
     legends:
       - { key: tmp, id: [0], label: "ref_zmp"} # ref_zmp
@@ -23,9 +42,5 @@ main:
       - { key: tmp, id: [24], label: "ad_ref_zmp"}
       - { key: tmp, id: [20], label: "cog wo dc"}
       - { key: abc_cogOut, id: [1]} # new_ref_cog
-  z pos:
-    legends:
-      - { key: shimpei, id: [0-5], label: "left arm"}
-  rleg swing comp:
-    legends:
-      - { key: swing_comp, id: [12-17] }
+
+

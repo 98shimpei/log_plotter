@@ -14,33 +14,8 @@ main:
     legends:
       - { key: shimpei, id: [7-8], label: "force_box_pos"}
       - { key: shimpei, id: [9-10], label: "camera_box_pos"}
-  #joint15:
-  #  legends:
-  #    - { key: shimpei, id: [12], label: "m_robot"}
-  #    - { key: shimpei, id: [13], label: "m_robot_list"}
-  abs ref cog/zmp x:
+  joint15:
     legends:
-      - { key: tmp, id: [0], label: "ref_zmp"} # ref_zmp
-      - { key: tmp, id: [2], label: "ref_dcm"} # ref_dcm
-      - { key: tmp, id: [4], label: "new_ref_zmp"} # new_ref_zmp
-      - { key: tmp, id: [6], label: "new_ref_cp"} # new_ref_cp
-      - { key: tmp, id: [8], label: "act_cp"} # act_cp
-      - { key: tmp, id: [21], label: "act_zmp"} # act_zmp
-      - { key: tmp, id: [23], label: "ad_ref_zmp"}
-      - { key: tmp, id: [19], label: "cog wo dc"}
-      - { key: abc_cogOut, id: [0]} # new_ref_cog
-    newline: false
-
-  abs ref cog/zmp y:
-    legends:
-      - { key: tmp, id: [1], label: "ref_zmp"} # ref_zp
-      - { key: tmp, id: [3], label: "ref_dcm"} # ref_dm
-      - { key: tmp, id: [5], label: "new_ref_zmp"} # nf_zmp
-      - { key: tmp, id: [7], label: "new_ref_cp"} # net_cp
-      - { key: tmp, id: [9], label: "act_cp"} # act_cp
-      - { key: tmp, id: [22], label: "act_zmp"} # act_zmp
-      - { key: tmp, id: [24], label: "ad_ref_zmp"}
-      - { key: tmp, id: [20], label: "cog wo dc"}
-      - { key: abc_cogOut, id: [1]} # new_ref_cog
-
+      - { key: shimpei, id: [12], label: "diff"}
+      - { key: shimpei, id: [13], label: "diff"}
 

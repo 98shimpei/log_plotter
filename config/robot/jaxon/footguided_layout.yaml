@@ -59,21 +59,21 @@ main:
       - { key: abc_originRefZmp, id: [0-1]}
       - { key: abc_originNewZmp, id: [0-1]}
 
-  # rleg swing comp:
-  #   legends:
-  #     - { key: swing_comp, id: [0-5] }
+  rleg swing comp:
+    legends:
+      - { key: swing_comp, id: [0-5] }
 
-  # lleg swing comp:
-  #   legends:
-  #     - { key: swing_comp, id: [6-11] }
+  lleg swing comp:
+    legends:
+      - { key: swing_comp, id: [6-11] }
 
-  # rarm swing comp:
-  #   legends:
-  #     - { key: swing_comp, id: [12-17] }
+  rarm swing comp:
+    legends:
+      - { key: swing_comp, id: [12-17] }
 
-  # larm swing comp:
-  #   legends:
-  #     - { key: swing_comp, id: [18-23] }
+  larm swing comp:
+    legends:
+      - { key: swing_comp, id: [18-23] }
 
   # falling direction:
   #   legends:

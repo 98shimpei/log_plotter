@@ -1,0 +1,11 @@
+main:
+  pos:
+    legends:
+      - { key: shimpei, id: [0], label: "xrefk_x"}
+      - { key: shimpei, id: [3], label: "xk_x"}
+    left_label: 'position [m]'
+  acc:
+    legends:
+      - { key: shimpei, id: [12], label: "xrefddk_x"}
+      - { key: shimpei, id: [15], label: "xddk_x"}
+    left_label: 'accelaration [m/s^2]'

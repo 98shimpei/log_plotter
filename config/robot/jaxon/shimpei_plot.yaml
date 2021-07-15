@@ -1,0 +1,48 @@
+extend:
+  jaxon_plot.yaml
+
+shimpei:
+  data:
+    - { log: abc_shimpei, column: [0-28] }
+
+shimpei_offset:
+  func: plot_with_offset
+  data:
+    - { log: abc_shimpei, column: [0-28] }
+
+shimpei_misalignment_norm:
+  func: shimpei_norm
+  data:
+    - { log: abc_shimpei, column: [0-28] }
+    - { log: abc_shimpei, column: [0-28] }
+    - { log: abc_shimpei, column: [0-28] }
+shimpei_misalignment_norm2:
+  func: shimpei_norm2
+  data:
+    - { log: abc_shimpei, column: [0-28] }
+    - { log: abc_shimpei, column: [0-28] }
+    - { log: abc_shimpei, column: [0-28] }
+shimpei_misalignment_norm3:
+  func: shimpei_norm
+  data:
+    - { log: abc_shimpei1, column: [0-28] }
+    - { log: abc_shimpei1, column: [0-28] }
+    - { log: abc_shimpei1, column: [0-28] }
+shimpei_misalignment_norm4:
+  func: shimpei_norm2
+  data:
+    - { log: abc_shimpei1, column: [0-28] }
+    - { log: abc_shimpei1, column: [0-28] }
+    - { log: abc_shimpei1, column: [0-28] }
+shimpei_misalignment_norm5:
+  func: shimpei_norm
+  data:
+    - { log: abc_shimpei2, column: [0-28] }
+    - { log: abc_shimpei2, column: [0-28] }
+    - { log: abc_shimpei2, column: [0-28] }
+shimpei_misalignment_norm6:
+  func: shimpei_norm2
+  data:
+    - { log: abc_shimpei2, column: [0-28] }
+    - { log: abc_shimpei2, column: [0-28] }
+    - { log: abc_shimpei2, column: [0-28] }

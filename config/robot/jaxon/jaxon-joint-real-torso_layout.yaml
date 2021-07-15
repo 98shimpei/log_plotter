@@ -9,16 +9,16 @@ main:
       - { key: st_q, id: [14],label: st_chest-y  }
       - { key: st_q, id: [15],label: st_neck-y }
       - { key: st_q, id: [16],label: st_neck-p }
-      # - { key: abc_q, id: [12],label: abc_chest-r  }
-      # - { key: abc_q, id: [13],label: abc_chest-p  }
-      # - { key: abc_q, id: [14],label: abc_chest-y  }
-      # - { key: abc_q, id: [15],label: abc_neck-y }
-      # - { key: abc_q, id: [16],label: abc_neck-p}
-      # - { key: el_q, id: [12],label: el_chest-r  }
-      # - { key: el_q, id: [13],label: el_chest-p  }
-      # - { key: el_q, id: [14],label: el_chest-y  }
-      # - { key: el_q, id: [15],label: el_neck-y }
-      # - { key: el_q, id: [16],label: el_neck-p}
+      - { key: abc_q, id: [12],label: abc_chest-r  }
+      - { key: abc_q, id: [13],label: abc_chest-p  }
+      - { key: abc_q, id: [14],label: abc_chest-y  }
+      - { key: abc_q, id: [15],label: abc_neck-y }
+      - { key: abc_q, id: [16],label: abc_neck-p}
+      - { key: el_q, id: [12],label: el_chest-r  }
+      - { key: el_q, id: [13],label: el_chest-p  }
+      - { key: el_q, id: [14],label: el_chest-y  }
+      - { key: el_q, id: [15],label: el_neck-y }
+      - { key: el_q, id: [16],label: el_neck-p}
       - { key: RobotHardware0_q, id: [12],label: rh_chest-r  }
       - { key: RobotHardware0_q, id: [13],label: rh_chest-p  }
       - { key: RobotHardware0_q, id: [14],label: rh_chest-y  }

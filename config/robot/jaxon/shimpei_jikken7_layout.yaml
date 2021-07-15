@@ -1,0 +1,25 @@
+main:
+  pos:
+    legends:
+      - { key: shimpei, id: [0], label: "xrefk_x"}
+      - { key: shimpei, id: [1], label: "xrefk_y"}
+      - { key: shimpei, id: [2], label: "xrefk_z"}
+      - { key: shimpei, id: [3], label: "xk_x"}
+      - { key: shimpei, id: [4], label: "xk_y"}
+      - { key: shimpei, id: [5], label: "xk_z"}
+    left_label: 'position [m]'
+  acc:
+    legends:
+      - { key: shimpei, id: [12], label: "xrefddk_x"}
+      - { key: shimpei, id: [13], label: "xrefddk_y"}
+      - { key: shimpei, id: [14], label: "xrefddk_z"}
+      - { key: shimpei, id: [15], label: "xddk_x"}
+      - { key: shimpei, id: [16], label: "xddk_y"}
+      - { key: shimpei, id: [17], label: "xddk_z"}
+    left_label: 'accelaration [m/s^2]'
+  misalignment:
+    legends:
+      - { key: shimpei, id: [24], label: "x"}
+      - { key: shimpei, id: [25], label: "y"}
+      - { key: shimpei, id: [26], label: "z"}
+    left_label: 'misalignment [m]'

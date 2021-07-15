@@ -1,0 +1,12 @@
+main:
+  misalignment:
+    legends:
+      - { key: shimpei, id: [24], label: "x"}
+      - { key: shimpei, id: [25], label: "y"}
+      - { key: shimpei, id: [26], label: "z"}
+    left_label: 'misalignment [m]'
+  REz-RdestEz:
+    legends:
+      - { key: shimpei, id: [27], label: "x"}
+      - { key: shimpei, id: [28], label: "y"}
+    left_label: 'length [m]'

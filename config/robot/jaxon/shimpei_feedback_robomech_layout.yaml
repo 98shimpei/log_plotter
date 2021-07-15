@@ -1,0 +1,11 @@
+main:
+  top_box_misalignment:
+    legends:
+      - { key: shimpei_misalignment_norm4, id: [0], label: "with control"}
+      - { key: shimpei_misalignment_norm6, id: [0], label: "without control"}
+    left_label: 'misalignment [m]'
+  second_box_misalignment:
+    legends:
+      - { key: shimpei_misalignment_norm3, id: [0], label: "with control"}
+      - { key: shimpei_misalignment_norm5, id: [0], label: "without control"}
+    left_label: 'misalignment [m]'

@@ -1,0 +1,28 @@
+main:
+  position:
+    legends:
+      #- { key: shimpei, id: [0], label: "xrefk_x"}
+      - { key: shimpei, id: [1], label: "input trajectory"}
+      #- { key: shimpei, id: [2], label: "xrefk_z"}
+      #- { key: shimpei, id: [3], label: "xk_x"}
+      - { key: shimpei, id: [4], label: "output trajectory"}
+      #- { key: shimpei, id: [5], label: "xk_z"}
+    left_label: 'position [m]'
+  acceleratoin:
+    legends:
+      #- { key: shimpei, id: [12], label: "xrefddk_x"}
+      - { key: shimpei, id: [13], label: "input trajectory"}
+      #- { key: shimpei, id: [14], label: "xrefddk_z"}
+      #- { key: shimpei, id: [15], label: "xddk_x"}
+      - { key: shimpei, id: [16], label: "output trajectory"}
+      #- { key: shimpei, id: [17], label: "xddk_z"}
+    left_label: 'accelaration [m/s^2]'
+  #theta:
+  #  legends:
+  #    - { key: shimpei, id: [21], label: "roll"}
+  #    - { key: shimpei, id: [22], label: "pitch"}
+  #    - { key: shimpei, id: [23], label: "yaw"}
+  #    - { key: shimpei, id: [18], label: "roll"}
+  #    - { key: shimpei, id: [19], label: "pitch"}
+  #    - { key: shimpei, id: [20], label: "yaw"}
+  #  left_label: 'angle [rad]'

@@ -104,6 +104,38 @@ class PlotMethod(object):
         plot_item.plot(times, watt,pen=pyqtgraph.mkPen(PlotMethod.linetypes["color"][i], width=2, style=PlotMethod.linetypes["style"][i]), name=key, fillLevel=0, fillBrush=PlotMethod.linetypes["color"][i])
 
     @staticmethod
+    def shimpei_watt(plot_item, times, data_dict, logs, log_cols, cur_col, key, i):
+        joint_vel=data_dict[logs[0]][:, log_cols[0]]
+        joint_tau=data_dict[logs[1]][:, log_cols[1]]
+        watt=joint_vel
+        plot_item.plot(times, watt,pen=pyqtgraph.mkPen(PlotMethod.linetypes["color"][i], width=2, style=PlotMethod.linetypes["style"][i]), name=key, fillLevel=0, fillBrush=PlotMethod.linetypes["color"][i])
+
+    @staticmethod
+    def shimpei_norm(plot_item, times, data_dict, logs, log_cols, cur_col, key, i):
+        val1 = data_dict[logs[0]]
+        print("hoge")
+        print(logs[0])
+        print(logs[1])
+        print(logs[2])
+        print(log_cols[0])
+        print(log_cols[1])
+        print(log_cols[2])
+        print(val1)
+        data = [math.sqrt(data_dict[logs[0]][t,24] * data_dict[logs[0]][t,24] + data_dict[logs[0]][t,25] * data_dict[logs[0]][t,25] + data_dict[logs[0]][t,26] * data_dict[logs[0]][t,26]) for t in range(len(data_dict[logs[0]][:,0]))]
+        plot_item.plot(times, data, pen=pyqtgraph.mkPen(PlotMethod.linetypes["color"][i], width=1.5, style=PlotMethod.linetypes["style"][i]), name=key)
+
+    @staticmethod
+    def shimpei_norm2(plot_item, times, data_dict, logs, log_cols, cur_col, key, i):
+        val1 = data_dict[logs[0]]
+        data = [math.sqrt(data_dict[logs[0]][t,21] * data_dict[logs[0]][t,21] + data_dict[logs[0]][t,22] * data_dict[logs[0]][t,22] + data_dict[logs[0]][t,23] * data_dict[logs[0]][t,23]) for t in range(len(data_dict[logs[0]][:,0]))]
+        plot_item.plot(times, data, pen=pyqtgraph.mkPen(PlotMethod.linetypes["color"][i], width=1.5, style=PlotMethod.linetypes["style"][i]), name=key)
+
+    @staticmethod
+    def plot_with_offset(plot_item, times, data_dict, logs, log_cols, cur_col, key, i):
+        offset = data_dict[logs[0]][0, log_cols[0]]
+        data = data_dict[logs[0]][:, log_cols[0]] - offset
+        plot_item.plot(times, data, pen=pyqtgraph.mkPen(PlotMethod.linetypes["color"][i], width=1.5, style=PlotMethod.linetypes["style"][i]), name=key)
+    @staticmethod
     def plot_rad2deg_vel(plot_item, times, data_dict, logs, log_cols, cur_col, key, i):
         data = [math.degrees(x) for x in numpy.diff(data_dict[logs[0]][:, log_cols[0]])/numpy.diff(times)]
         plot_item.plot(times, numpy.append(data,[0]), pen=pyqtgraph.mkPen(PlotMethod.linetypes["color"][i], width=2, style=PlotMethod.linetypes["style"][i]), name=key)

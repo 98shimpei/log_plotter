@@ -1,0 +1,15 @@
+main:
+  object_position_x:
+    legends:
+      - { key: shimpei_offset, id: [7], label: "force_sensor"}
+      - { key: shimpei_offset, id: [9], label: "camera"}
+    left_label: 'position [m]'
+  object_position_y:
+    legends:
+      - { key: shimpei_offset, id: [8], label: "force_sensor"}
+      - { key: shimpei_offset, id: [10], label: "camera"}
+    left_label: 'position [m]'
+  weight:
+    legends:
+      - { key: shimpei_offset, id: [6], label: "box weight"}
+    left_label: 'weight [kg]'

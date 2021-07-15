@@ -20,38 +20,38 @@ main:
       - { key: abc_q, id: [22],label: abc_wrist-y }
       - { key: abc_q, id: [23],label: abc_wrist-r }
       - { key: abc_q, id: [24],label: abc_wrist-p }
-      - { key: abst_q, id: [17],label: abst_collar-y }
-      - { key: abst_q, id: [18],label: abst_shoulder-p }
-      - { key: abst_q, id: [19],label: abst_shoulder-r }
-      - { key: abst_q, id: [20],label: abst_shoulder-y }
-      - { key: abst_q, id: [21],label: abst_elbow-p }
-      - { key: abst_q, id: [22],label: abst_wrist-y }
-      - { key: abst_q, id: [23],label: abst_wrist-r }
-      - { key: abst_q, id: [24],label: abst_wrist-p }
-      - { key: el_q, id: [17],label: el_collar-y }
-      - { key: el_q, id: [18],label: el_shoulder-p }
-      - { key: el_q, id: [19],label: el_shoulder-r }
-      - { key: el_q, id: [20],label: el_shoulder-y }
-      - { key: el_q, id: [21],label: el_elbow-p }
-      - { key: el_q, id: [22],label: el_wrist-y }
-      - { key: el_q, id: [23],label: el_wrist-r }
-      - { key: el_q, id: [24],label: el_wrist-p }
-      - { key: RobotHardware0_q, id: [17],label: rh_collar-y }
-      - { key: RobotHardware0_q, id: [18],label: rh_shoulder-p }
-      - { key: RobotHardware0_q, id: [19],label: rh_shoulder-r }
-      - { key: RobotHardware0_q, id: [20],label: rh_shoulder-y }
-      - { key: RobotHardware0_q, id: [21],label: rh_elbow-p }
-      - { key: RobotHardware0_q, id: [22],label: rh_wrist-y }
-      - { key: RobotHardware0_q, id: [23],label: rh_wrist-r }
-      - { key: RobotHardware0_q, id: [24],label: rh_wrist-p }
-      - { key: enc_q, id: [17], label: enc_collar-y }
-      - { key: enc_q, id: [18], label: enc_shoulder-p }
-      - { key: enc_q, id: [19], label: enc_shoulder-r }
-      - { key: enc_q, id: [20], label: enc_shoulder-y }
-      - { key: enc_q, id: [21], label: enc_elbow-p }
-      - { key: enc_q, id: [22], label: enc_wrist-y }
-      - { key: enc_q, id: [23], label: enc_wrist-r }
-      - { key: enc_q, id: [24], label: enc_wrist-p }
+      #- { key: abst_q, id: [17],label: abst_collar-y }
+      #- { key: abst_q, id: [18],label: abst_shoulder-p }
+      #- { key: abst_q, id: [19],label: abst_shoulder-r }
+      #- { key: abst_q, id: [20],label: abst_shoulder-y }
+      #- { key: abst_q, id: [21],label: abst_elbow-p }
+      #- { key: abst_q, id: [22],label: abst_wrist-y }
+      #- { key: abst_q, id: [23],label: abst_wrist-r }
+      #- { key: abst_q, id: [24],label: abst_wrist-p }
+      #- { key: el_q, id: [17],label: el_collar-y }
+      #- { key: el_q, id: [18],label: el_shoulder-p }
+      #- { key: el_q, id: [19],label: el_shoulder-r }
+      #- { key: el_q, id: [20],label: el_shoulder-y }
+      #- { key: el_q, id: [21],label: el_elbow-p }
+      #- { key: el_q, id: [22],label: el_wrist-y }
+      #- { key: el_q, id: [23],label: el_wrist-r }
+      #- { key: el_q, id: [24],label: el_wrist-p }
+      #- { key: RobotHardware0_q, id: [17],label: rh_collar-y }
+      #- { key: RobotHardware0_q, id: [18],label: rh_shoulder-p }
+      #- { key: RobotHardware0_q, id: [19],label: rh_shoulder-r }
+      #- { key: RobotHardware0_q, id: [20],label: rh_shoulder-y }
+      #- { key: RobotHardware0_q, id: [21],label: rh_elbow-p }
+      #- { key: RobotHardware0_q, id: [22],label: rh_wrist-y }
+      #- { key: RobotHardware0_q, id: [23],label: rh_wrist-r }
+      #- { key: RobotHardware0_q, id: [24],label: rh_wrist-p }
+      #- { key: enc_q, id: [17], label: enc_collar-y }
+      #- { key: enc_q, id: [18], label: enc_shoulder-p }
+      #- { key: enc_q, id: [19], label: enc_shoulder-r }
+      #- { key: enc_q, id: [20], label: enc_shoulder-y }
+      #- { key: enc_q, id: [21], label: enc_elbow-p }
+      #- { key: enc_q, id: [22], label: enc_wrist-y }
+      #- { key: enc_q, id: [23], label: enc_wrist-r }
+      #- { key: enc_q, id: [24], label: enc_wrist-p }
     bottom_label:
     newline: false
 
